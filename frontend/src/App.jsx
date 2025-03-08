@@ -26,6 +26,8 @@ const App = () => {
               <Route path="/CreateProduct" element={<CreateProduct />} />
             </Routes>
           </main>
+          {/* Main Content */}
+          
         </div>
       </div>
     </Router>
