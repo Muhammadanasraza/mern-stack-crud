@@ -49,7 +49,7 @@ const Products = () => {
   // Handle delete action
   const handleDelete = async (id) => {
     try {
-      const response = await fetch(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/products/available/delete${id}`, {
+      const response = await fetch(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/api/products/available/delete/${id}`, {
         method: "DELETE",
       });
 

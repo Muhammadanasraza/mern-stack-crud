@@ -11,7 +11,7 @@ router.get("/products/available", getAvailableProduct);
 
 
 // Route to delete Available Products
-router.delete("/products/available/delete:id", deleteProduct);
+router.delete("/products/available/delete/:id", deleteProduct);
 
 router.put("/products/available/edite:id", updateProduct);
 
